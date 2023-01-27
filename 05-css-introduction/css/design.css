@@ -1,0 +1,47 @@
+body{
+	background-color:#c7d5e1;
+	font-family: arial,sans-serif;
+	padding: 40px;/* ceci est une marge interne */
+}
+
+h1{
+	background-color: #000;
+	color:#fff;
+	padding: 20px;
+
+}
+abbr{
+	font-style: italic;
+	font-family: Helvetica, sans-serif;
+}
+
+ul{
+	list-style-type: square;
+	border:red 5px dashed;
+	padding-top: 15px
+	padding-bottom:15px;
+}
+
+a{
+	text-decoration:none;  /*ici supprimer le soulignement */
+	background-color: red;  /*ici mettre en surligner */
+	color:white;				/*ici mettre écrit en blanc */
+	padding:5px;					/*ici mettre une epaisseur autour de mon mots lien comme la marge interne*/
+	padding-right:15px;				/*ici pour l épaisseur de la marge a droite*/ 
+	padding-left:15px;				/*ici pour l'épaisseur de la marge a gauche*/
+	border-radius:100px; 					/*ici arrondir une bordur*/
+}
+
+
+
+/*ici sera l'état survolé de la balise a */
+
+a:hover{
+	background-color: grey;     /* ici pour que le mots devient transparent au passage de la souri*/
+	font-size:30px;						/*ici pour voir le lien grossir en taille */
+	box-shadow:10px 10px 5px black inset;		/* ici pour apporter une ombre a notre lien au survole*/
+										/* modifier les px permet d'obtenir différent style de fluidité du bouton*/
+										/* 1 = déplacement horizontal puis deplacement étendu et finalement déplacement de couleur */
+										/* inset permet de faire l'ombre porter a l interieur de l'objet */
+}
+

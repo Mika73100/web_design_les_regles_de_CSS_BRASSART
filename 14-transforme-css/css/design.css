@@ -1,0 +1,216 @@
+body{
+	 font-family: arial, sans-serif;
+	 line-height: 1.6;
+	 background-color: #333;
+	 padding: 40px;
+}
+
+main{
+	max-width: 900px; /* une largeur d écrant a 900px */
+	margin: 0 auto; /* centrer par rapport a la page de navigation */
+	background-color: white;
+	padding: 40px;
+	border-radius: 0 20px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin: 1em 0; 
+}/*------------------------------------------------------*/
+
+.lapin1{
+	background-color: brown;
+	color: white;
+	padding: 10px;
+	transition: 500ms;
+}
+.lapin1:hover{
+		transform:translate(70px,20px); 
+}
+
+/*-----------------------------------------------------*/
+
+.lapin2{   /* ici utile pour déplacer le bloc a droite et en bas */ 
+	background-color: Forestgreen;
+	color: white;
+	padding: 10px;
+	transition: 500ms;
+}
+.lapin2:hover{   /* ici utile pour déplacer le bloc vers la gauche */
+		transform:translateX(-30px); 
+}
+
+
+/*-------------------------------------------------------*/
+
+
+.lapin3{
+	background-color:MediumTurquoise;
+	padding: 40px;
+	color:white;
+	width:220px;
+	transition: 500ms;
+}
+
+
+.lapin3:hover{		/* modifie l'échelle du hover ciblé par son echelle */
+	transform:scale(1.2); /* le p visé passe de 1 normal a son double 2 et
+	 si je souhaite le diminuer je met un signe négatif devant */
+
+   }
+/*------------------------------------------------------------*/
+
+.lapin4{
+	background-color: NavajoWhite;
+	padding: 40px;
+	width: 200px;
+	transition: 500ms;
+}
+
+.lapin4:hover{
+	transform:skew(15deg,20deg); /* deg unité de mesure en degré permet la rotativité des objets */
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.lapin5{
+	background-color: Peru;
+	padding: 40px;
+	width: 200px;
+	transition: 500ms;
+}
+
+.lapin5:hover{
+	transform: rotate(35deg);  /*ici j utilise la rotation Z car je n'est pas indiquer x ni y au debut de ma rotation */
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+
+.divception{
+	width:500px;
+	height:500px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.divception div{
+	width: 95%;
+	height: 95%;
+	background-color: rgba(0,0,0,0.1);
+	transition: 1000ms;
+	border-radius: 0 0 100% 0;
+}
+
+.divception:hover div{
+	transform: rotate(10deg);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+
+.btn-rotatif{
+	display: block;
+	background-color: red;
+	text-align: center;
+	width: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 0 10px black;
+	transition:800ms;
+}
+
+
+.btn-rotatif:hover{
+	transform: rotate(180deg);
+}
+
+.btn-rotatif span{
+	display: block;
+	transition:ease-out 800ms;
+}
+
+.btn-rotatif:hover span{
+	transform: rotate(-180deg);
+}
+
+
+/* ici le but de l exercice était la contre transformation */ 
+
+
+/*-------------------------------------------------------------------------*/
+
+
+.lapin6{
+	background-color:Rebeccapurple;
+	color: white;
+	padding: 40px;
+	width: 200px;
+	transition: 500ms;
+	transform-origin: left top;
+}
+
+.lapin6:hover{
+	transform: rotate(35deg);  /*ici j utilise la rotation Z car je n'est pas indiquer x ni y au debut de ma rotation */
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.lapin7{
+	background-color:Sienna;
+	color: white;
+	padding: 40px;
+	width: 200px;
+	transition: 500ms;
+}
+
+.lapin7:hover{
+	transform:rotate(35deg) scale(1.5);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*la galerie d'image */
+
+.lanzarot{     /* ici ont agit sur le bloc */
+	display: block; 
+	border:solid 5px grey;
+	width: 250px;
+	height: 250px;
+
+	/* géré le débordement */
+	overflow: hidden;
+	border-radius: 50px;
+	margin: 10px;
+
+}
+.lanzarot:hover{
+	border:solid 5px red;
+	box-shadow: 0 0 20px black;
+}
+
+.lanzarot img{   /*ici ont agit sur l'image */
+	display: block;
+	width: 100%;
+	transition: 500ms;
+}
+
+.lanzarot:hover img{       /* ici j utilise le hover zoom */
+	transform: scale(1.5);
+	transition: 2500ms;
+}
+
+.lanzarot hover{
+	transform: rotate(35deg) scale(1.5);
+	transition: 300ms;
+}
+
+.imagelanzarot{
+	display: flex;
+	flex-wrap: wrap;
+}

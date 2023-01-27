@@ -1,0 +1,139 @@
+body{
+	 font-family: arial, sans-serif;
+	 line-height: 1.6;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin: 1em 0; 
+
+
+
+.fc{
+	display: flex;
+}
+
+.jc-sb{
+	justify-content: space-between;
+}
+
+.jc-c{
+	justify-content: center;
+}
+
+
+
+
+nav{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 40px;
+}
+
+
+nav li{
+	display: inline-block;
+}
+
+
+
+a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+
+
+/* la nave en haut */
+
+
+h1	{
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.terrain{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.perspective{
+	text-align: center;
+	padding-top: 40px;
+}
+
+p{
+	font-size: 30px;
+}
+/* première image persentation de la maison perspective */ 
+
+
+.plancoupe{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.interieur{
+	text-align: center;
+}
+/*------------------*/
+/* NEON 
+
+.sign_word {
+	font-size: 5.6rem;
+	text-align: center;
+	line-height: 1;
+	color:#c6e2ff;
+	-webkit-animation: neon 0.08s ease-in-out infinite alternate;
+			animation: neon 0.08s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
+  }
+}
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
+  }
+}
+
+.sign_word{
+	text-align: center;
+	color: #828282;
+	text-decoration: none;
+}
+
+.sign_word : hover {
+	  color: #c6e2ff;
+  text-shadow: 0 0 2px rgba(202, 228, 225, 0.92), 0 0 10px rgba(202, 228, 225, 0.34), 0 0 4px rgba(30, 132, 242, 0.52), 0 0 7px rgba(30, 132, 242, 0.92), 0 0 11px rgba(30, 132, 242, 0.78), 0 0 16px rgba(30, 132, 242, 0.92);
+}
+*/
+
+
+
+
+
+
+
+/*footer*/
+ul{
+	text-align: center;
+	background-color: black;
+	color: #ffffff;
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+
+

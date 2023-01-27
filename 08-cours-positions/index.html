@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">  <!-- utile pour afficher les caractères ( accents etc ) --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  <!--utile pour responsive -->
+
+	<title>Cours positions</title>
+
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+</head>
+<body>
+
+
+<nav>
+	<ul class="wrap fc">
+		<li>
+			<a href="" title="Page 1">Btn 1</a>
+		</li>
+
+		<li>
+			<a href="" title="Page 2">Btn 2</a>
+		</li>
+
+		<li>
+			<a href="" title="Page 3">Btn 3</a>
+		</li>
+	</ul>
+</nav>
+
+
+<main class="wrap wrap-border">
+
+	<h1>cours position CSS</h1>
+
+	<h2>Actus</h2>
+
+	<!-- parent -->
+
+	<div class="fc jc-sb fw">
+		<div class="col3-g actu">
+			<h3>Titre de l'actu</h3>												<!-- ici le sous titre -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>		<!-- ici paragraphe -->
+			<p class="date">04 <br><span>fév</span></p>
+
+		</div>
+
+		<div class="col3-g actu">
+			<h3>Titre de l'actu</h3>												<!-- ici le sous titre -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>		<!-- ici paragraphe -->
+			<p class="date">03<br><span>fév</span></p>
+<!-- time datetime= "2021-02-04 18:10:03"> 04 <br>fév </time>   exemple possible :    class="time"  -->
+
+		</div>
+
+		<div class="col3-g actu">
+			<h3>Titre de l'actu</h3>												<!-- ici le sous titre -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>		<!-- ici paragraphe -->
+			<p class="date">02 <br><span>fév</span></p>
+		</div>
+		
+
+
+
+
+	</div>
+
+	<!-- un autre parent -->
+
+	<div class="fc jc-sb fw">  				<!-- ici je rajoute fw pour que mon site soit responsive -->
+
+		<figure class="col2-g">
+			<img src="images/img1.jpg" alt="Paysage de Norvège" class="vig">   
+			<!-- balise images --> <!-- alt pour le référencement --> <!-- vig nous permet de donner un ordre a la photo pour le css -->
+			<figcaption>Texte de la légende de l'image 1</figcaption> <!-- ici pour mettre une légende d'image -->	
+	</figure>
+		<figure class="col2-g">
+			<img src="images/img2.jpg" alt="Ville de Norvège" class="vig">	<!-- balise images -->
+			<figcaption>Texte de la légende de l'image 2</figcaption> <!-- ici pour mettre une légende d'image -->		
+	</figure>
+
+	</div>
+
+
+</main>
+
+
+
+
+
+
+
+
+</body>
+</html>

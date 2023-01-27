@@ -1,0 +1,97 @@
+body{
+	 font-family: arial, sans-serif;
+	 line-height: 1.6;
+	 background-image: url(../img/bg-GreenTropicalPlant.jpg);
+	 background-size: cover;   /*1920 par 1080 nous permet de mettre l arriere plan a 100% */
+	 background-attachment: fixed; /* nous permet de fixer notre image de fond sans qu'elle puisse bouger */
+}
+
+.fc{
+	display:flex;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:1em 0;
+}
+
+main{
+	max-width: 800px;
+	padding:20px;
+	margin: 0 auto;	 /* positionnement centré a ton navigateur */
+	box-shadow:0 0 20px black; /* ombre porté d'un box X / Y * et couleur de l'ombre */
+	border-radius: 20px;	/* arrondir les bords */
+	background-image: url(../img/bananas/bananas.png); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+}
+
+.box1{
+	background-color: #ccc;
+	width: 270px;
+	height: 190px;
+	padding: 20px;   /*utile pour décaler le texte au bordure du cadre */
+	background-image: url(../img/frozen.jpg); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+   }
+
+.box2{
+	background-color: #ccc;
+	width: 270px;
+	height: 190px;
+	padding: 20px;   /*utile pour décaler le texte au bordure du cadre */
+	background-image: url(../img/frozen.jpg); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+	background-repeat: no-repeat; /* pas de répétition d'image, repeat-x | repeat-y | si on laisse que repeat il sera par défaut */
+   }
+
+.box3{
+	background-color: #ccc;
+	width: 270px;
+	height: 190px;
+	padding: 20px;   /*utile pour décaler le texte au bordure du cadre */
+	background-image: url(../img/frozen.jpg); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+	background-repeat: no-repeat; /* pas de répétition d'image, repeat-x | repeat-y | si on laisse que repeat il sera par défaut */
+	background-position:right center;   
+	}  /* left | right | top | bottom | center */
+
+.box4{
+	background-color: #ccc;
+	width: 270px;   /*largeur du conteneur */
+	height: 190px;		/*hauteur du conteneur */
+	padding: 20px;   /*utile pour décaler le texte au bordure du cadre */
+	background-image: url(../img/frozen.jpg); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+	background-repeat: no-repeat; /* pas de répétition d'image, repeat-x | repeat-y | si on laisse que repeat il sera par défaut */
+	background-size: cover; /*permet de retoucher la taille de l'image */
+}    /*cover nous permet de redimentionner l'image quoi qu'il arrive peut importe la largueur de la boite 
+	| contain = quoi qu'il arrive nous permet de l afficher en entier */
+
+
+.box5{
+	background-color: #ccc;
+	width: 270px;
+	height: 190px;
+	padding: 20px;   /*utile pour décaler le texte au bordure du cadre */
+	background-image: url(../img/frozen.jpg); /*ici j'utilise (2 .. ) pour remonter au fichier source et rajouter l image */
+	background-attachment: fixed; /* nous permet de donner un effet paralax a notre navigateur */
+   }
+
+   /*en parralaxe */
+
+.pllx{
+	background-color: green;
+	color:white;
+	text-align: center;
+	font-size: 4em;
+	padding: 100px 0;
+	margin: 100px 0;
+	background-image: url(../img/fond-tropical.jpg); 
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h2{
+	background-image: url(../img/border-fleur.png);
+	text-align: center;
+	background-color: yellow;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 200px ;
+	font-family: 'brush script MT';  /* nous permet de mettre une typo */
+	padding-bottom: 15px;   /*nous permet d augementer la taille de notre block vers le bas */ 
+}

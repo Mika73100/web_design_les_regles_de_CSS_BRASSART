@@ -1,0 +1,22 @@
+body{
+	 font-family: arial, sans-serif;
+	 line-height: 1.6;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin: 1em 0; 
+}
+
+
+.fc{
+	display: flex;
+}
+
+.jc-sb{
+	justify-content: space-between;
+}
+
+.jc-c{
+	justify-content: center;
+}

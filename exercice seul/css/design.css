@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; /*nous permet de mettre a l interieur les bordure et les paddings et pas a l'exterieur*/
+}
+
+
+body {
+	color: #FFF;
+}
+
+h1{
+	background-color: black;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 90px;
+	padding: 10px;
+}
+
+h2{
+	background-color: black;
+	font-size: 10px;
+	position: absolute;
+	right:0;
+	bottom: 90px;
+	padding: 10px;}
+
+
+.s1,.s2{
+	height: 100vh;}
+
+.s3,.s4,.s5,.s6,.s7,.s8{
+	height: 50vh;}
+
+
+

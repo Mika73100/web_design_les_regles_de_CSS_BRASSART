@@ -1,0 +1,12 @@
+Copiez/collez la ligne ci dessous au tout début de votre feuille de style pour pouvoir utiliser la police des titres "Play Fair Display" :
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+ensuite, utilisez  :
+font-family : 'Playfair Display', serif;
+
+sur les balises souhaitées. 
+
+
+
+De la méthode pour reussir :)

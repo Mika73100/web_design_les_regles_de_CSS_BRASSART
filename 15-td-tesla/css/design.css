@@ -1,0 +1,123 @@
+/*couelurs rouge tesla #e31937 */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	 font-family: arial, sans-serif;
+	 line-height: 1.6;
+	background-color: #eeeeee;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin: 1em 0; 
+}
+/*---------------------------------------------------------*/
+
+.n1{
+	background-color: #e31937;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;   /* largeur en anglais */
+	height: 100em; /* longeur de la taille de l'écran*/
+}
+
+li{
+	list-style-type: none;
+}
+
+
+.logo{
+	display: block; /* ici bien metre en bloc quand c'est un a */
+	margin: 0 auto;
+}
+
+.a1{
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-transform: uppercase;  /* majuscule */
+	font-size: 13px;
+	font-weight: lighter;   /* texte en light */
+	border-bottom: solid 2px rgba(0,0,0,0.3);
+}
+
+.a1:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+main{
+	max-width: 100%;
+	margin-left: 300px;
+}
+
+.tesla{
+	display: block;
+	width: 100%;
+}	
+
+.titre{
+	text-align: center;
+	font-size: 2em;
+}
+
+.display-flex{
+	display: flex;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.jc-fc{
+	justify-content: space-between;
+}
+
+.sect2{
+	margin-bottom: 40px;
+}
+
+.col2{
+	width: 40%;
+	padding: 30px;
+}
+
+.interieur{
+	display: block;
+	width: 100%;
+}
+
+.citation{
+	width: 80%;
+	padding: 30px;
+	margin: 30px auto;
+	background-image: url(../img/quote-icon.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.col3{
+	width: 20%;
+	margin: 20px;
+}
+
+
+.mignature{
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	transition: 400ms;
+}
+
+.mignature:hover{
+	border:solid 5px red;
+	transition: 400ms;
+	transform: scale(1.2);
+}

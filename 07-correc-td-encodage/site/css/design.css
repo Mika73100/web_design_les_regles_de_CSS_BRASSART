@@ -1,0 +1,93 @@
+/* REGLES GENERALES UTILES TOUT AU LONG DE LA MISE EN PAGE*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrap-border {
+	border: solid 1px #000;
+	padding: 20px;
+}
+
+.fc {
+	display: flex;
+}
+
+.jc-sb {
+	justify-content: space-between;
+}
+
+.vig {
+	width: 100%;
+}
+
+.mgb {
+	margin-bottom: 20px;
+}
+
+.col2 {
+	width: 50%;
+}
+.col2-g {
+	width: 49%;
+}
+
+.col3 {
+	width: 33.33%;
+}
+.col3-g {
+	width: 32%;
+}
+
+.coul1 {
+	background-color: #708fa4;
+}
+.coul2 {
+	background-color: #536474;
+}
+
+/* REGLES SPECIFIQUES AU DESIGN DE CERTAINS ELEMENTS*/
+nav {
+	margin-bottom: 70px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li:nth-last-child(2) {
+	margin-left: auto;
+}
+nav a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 50px;
+	display: block;
+}
+nav a:hover {
+	background-color: #708fa4;
+}
+
+main {
+	border-radius: 3px;
+
+}
+
+footer {
+	margin-top: 70px;
+	height: 200px;
+}
+
+.fc div {
+	min-height: 200px;
+}

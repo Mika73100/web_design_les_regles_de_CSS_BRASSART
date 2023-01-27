@@ -1,0 +1,16 @@
+07-td-encodage
+--
+Dans la thématique de votre choix, et puisque nous sommes sur un exercice de classe (attention au droit à l'image et au droit d'auteur), je vous laisse chercher sur le web :
+- Des images
+- Un jeu de couleurs
+- Un jeu de google fonts
+- Des textes
+
+Vos contraintes :
+- Réalisez une page de site web avec une vraie plus-value en terme d'esthétisme et de contenu
+- Structurez un dossier de site propre
+- Créez et respectez le gabarit qui vous est imposé dans projet > apercu.jpg
+
+En bonus, pour les plus rapides :
+- Quand vous aurez terminé, posez un regard sur la meilleure optimisation possible de vos sélecteurs CSS (les classes entre autres choses)
+

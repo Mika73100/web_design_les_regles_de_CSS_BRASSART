@@ -1,0 +1,45 @@
+/* ici le css */
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial,sans-serif;
+	line-height:1.6;
+	color:white;
+}
+
+.s1,.s2{
+	height:100vh;
+}
+.s3,.s4,.s5,.s6,.s7,.s8{
+	height:50vh;
+}
+
+.s1{background-color: #59151A;}
+.s2{background-color: #731F26;}
+.s3{background-color: #05060D;}
+.s4{background-color: #8C7158;}
+.s5{background-color: #735443;}
+.s6{background-color: #F2AC57;}
+.s7{background-color: #590202;}
+.s8{background-color: #D96262;}
+
+.fc{display:flex;}
+.s4,.s5{	width:calc(100% / 2);}
+.s6,.s7,.s8{width:calc(100% / 3);}
+
+/* positionnement des titres */
+section{
+	position: relative;
+	/* chaque section devient la référence 
+	pour ses enfants positionnés en absolute */
+}
+h1,h2{
+	position:absolute;
+	right:0;
+	bottom:20px;
+	background-color: rgba(0,0,0,.6);
+	padding:10px 20px;
+}

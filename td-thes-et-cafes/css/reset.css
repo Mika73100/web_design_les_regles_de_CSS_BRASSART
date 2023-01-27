@@ -1,0 +1,9 @@
+/* Reset */
+/* Réinitialiser toutes les marges */
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	/* pour inclure les marges internes et les bordures dans les dimensions */
+}

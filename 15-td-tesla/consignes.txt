@@ -1,0 +1,34 @@
+TESLA - Page Model S
+------------------
+Exercice d'integration HTML/CSS
+Durée : 3h
+Type : individuel
+
+Objectif :
+Réaliser dans le temps imparti, l'intégration complète HTML/CSS de la page Model S du site Tesla, illustré par la maquette fournie.
+------------------
+Materiel fourni :
+- Dossier d'images
+- Texte de la page
+- Maquette de la page version desktop
+
+Font titre : Google font --> Poiret One
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+Font labeur : arial
+------------------
+Attendu :
+Un dossier zip à votre nom et prenom, contenant la totalité de votre dossier projet, à déposer sur le cloud dans le répértoire prévu.
+(ex : tesla-roche-tom.zip)
+------------------
+Grille de notation, du plus important au moins important
+- Qualité de la structure html (semantique/hierarchie)
+- Fidélité du resultat / maquette
+- Mise en page fluide
+- Qualité et optimisation du CSS
+- respect des consignes
+------------------
+
+Observez bien la version la version live, n'hésitez pas à venir la manipuler sur le poste enseignant pour en comprendre les subtilités.
+
+Soyez méthodiques !
